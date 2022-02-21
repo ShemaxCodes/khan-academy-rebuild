@@ -28,24 +28,53 @@ li a {
     text-decoration: none;
   }
 
-.hero {
-    border-style: solid;
-    border-color: blue;
-}
 
 .hero-image {
-    border-style: solid;
-    border-color: red;
     margin: auto;
     padding-left: 120px;
 }
 
 .hero-description {
-    border-style: solid;
-    border-color: blueviolet;
     position: relative;
-    bottom: 400px;
-    right: -640px;
+    bottom: 500px;
+    right: -680px;
     height: 100px;
+    width: 400px;
+}
+
+h1 {
+    font-family: 'Source Serif Pro', 'Noto Serif', serif;
+    font-size: 43px;
+    font-weight: 600;
+    color: #21242c;
+    line-height: 60px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: 'Noto Serif';
+    font-weight: 100;
+}
+
+button {
+    background-color: #1865F2;
+    color: white;
+    border: solid;
+    border-radius: 8px;
+    padding: 15px 20px;
+    font-weight: 300;
+}
+
+p .buttons {
     width: 300px;
+}
+
+h2 {
+    font-family: 'Source Serif Pro', 'Noto Serif', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #21242c;
+    line-height: 60px;
+    margin-bottom: 0px;
+    text-align: center;
 }
