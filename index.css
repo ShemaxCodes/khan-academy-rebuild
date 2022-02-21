@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  }
+  
+li a {
+    display: block;
+  }
+
+li {
+    display: inline;
+}
+
+
+  
+.hero {
+    border-style: solid;
+    border-color: blue;
+}
+
+.hero-image {
+    border-style: solid;
+    border-color: red;
+    margin: auto;
+    padding-left: 120px;
+}
+
+.hero-description {
+    border-style: solid;
+    border-color: blueviolet;
+}
