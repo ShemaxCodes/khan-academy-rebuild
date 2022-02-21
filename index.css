@@ -1,20 +1,33 @@
-ul {
-    list-style-type: none;
+body {
     margin: 0;
     padding: 0;
-    width: 60px;
-  }
-  
-li a {
-    display: block;
-  }
-
-li {
-    display: inline;
 }
 
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    border-bottom: gray;
+}
 
-  
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
 .hero {
     border-style: solid;
     border-color: blue;
@@ -30,4 +43,9 @@ li {
 .hero-description {
     border-style: solid;
     border-color: blueviolet;
+    position: relative;
+    bottom: 400px;
+    right: -640px;
+    height: 100px;
+    width: 300px;
 }
