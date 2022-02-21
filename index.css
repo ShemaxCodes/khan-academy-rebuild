@@ -25,7 +25,7 @@ ul {
 }
 .navbar-header {
     float: left;
-    padding-left: 40px;
+    padding-left: 80px;
 }
 
 .navbar-nav {
@@ -36,20 +36,20 @@ ul {
 
 
 .nav-link {
-    padding: 14px 16px;
+    padding: 14px 8px;
     display: inline-block;
 }
 
 
 .navbar-right {
     float: right;
-    padding-right: 40px;
+    padding-right: 80px;
 }
 
 li a {
     display: block;
     text-align: center;
-    padding: 7px 16px;
+    padding: 7px 2px;
     text-decoration: none;
     font-family: 'Source Serif Pro', 'Noto Serif', serif;
     font-weight: 600;
@@ -57,6 +57,7 @@ li a {
 
 .hero {
     padding: 30px 0;
+    height: 500px;
 }
 
 
