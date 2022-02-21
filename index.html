@@ -16,17 +16,28 @@
     <body>
         <header>
             <nav class="navbar">
-                <ul style="list-style: none;">
-                    <li class="nav-left"><a href="#">Courses</a></li>
-                    <li class="nav-left">
-                       <form><input type="search" placeholder="&#128269;">
-                    </form></li>
-                    <li><img src="/images/logo.png" alt="logo"></li>
-                    <li class="nav-right"><a href="#">Donate</a></li>
-                    <li class="nav-right"><a href="#">Login</a></li>
-                    <li class="nav-right"><a href="#">Sign up</a></li>
-                </ul>
+                <div class="container">
+                    <div class="navbar-header">
+                        <ul>
+                        <li class="nav-link"><a href="#">Courses</a></li>
+                        <li class="nav-link">
+                        <form><input type="search" placeholder="&#128269;">
+                        </form></li>
+                        </ul>
+                    </div>
+            
+                    <ul class="navbar-nav">
+                        <li><img src="/images/logo.png" alt="logo"></li>
+                    </ul>
+
+                    <ul class="navbar-right">
+                        <li class="nav-link"><a href="#">Donate</a></li>
+                        <li class="nav-link"><a href="#">Login</a></li>
+                        <li class="nav-link"><a href="#">Sign up</li></a>
+                    </ul>
+                </div>
             </nav>
+            
         </header>
         <section class="hero">
             <div class="hero-image">
@@ -45,9 +56,9 @@
             <button>Teachers</button>
             <button>Districts</button>
             <button>Parents</button></p>
-        </section>
         </div>
-    </div>
+        </section>
+        
         <section class="description">
             <h2>Why Khan Academy Works</h2>
         </section>
